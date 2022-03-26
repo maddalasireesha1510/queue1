@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+qu.push(1);
+qu.push(2);
+qu.emplace(5);
+qu.back()+=5;
+//cout<<qu.back()<<endl;
+qu.pop(();
+//cout<<qu.front();
+
+
+//priority queue
+priority_queue<int>pq;//it stores in decending order
+pq.push(1);//{1}
+pq.push(2);//{10,1}
+pq.push(5);//{10,5,1}     //heap 
+pq.emplace(8);//{10,8,5,1}
+
+pq.push(-1*10);{-10}
+pq.push(-1*12);{-10,-12}
+pq.push(-1*2);{-2,-10,-12}
+cout<<pq.top();
+cout<<pq.top(    );
+
+cout<<pq.top()<<endl;//prints 10
+pq.pop();//10 will be removed
+cout<<pq.top()<<endl;//8 will be printed
+
+
+priority_queue<int,vector<int>,ge
+
+}
